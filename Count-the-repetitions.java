@@ -8,12 +8,12 @@ public class Interview {
         int S1Length = s1.length()*n1;
         int j = 0;
         int k = 0;
-        int realIndex = 0;
-        for(int i = 0; i < S1Length; i++) 
+        int i = 0;
+        for(int count = 0; count < S1Length; count++) 
         {
-            if(realIndex>=s1.length())
-                realIndex = 0;
-            if(s1.charAt(realIndex)==s2.charAt(j)) {
+            if(i>=s1.length())
+                i = 0;
+            if(s1.charAt(i)==s2.charAt(j)) {
                 j++;
                 if(j==s2.length()) {
                     k++;
