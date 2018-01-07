@@ -17,6 +17,19 @@ class Solution {
         }
         return -1; //useless since the array always has duplicate number
     }
+    public int findDuplicateSetVersion(int[] nums) {
+
+        Set<Integer> set = new HashSet<Integer>();        
+        for(int i = 0; i < nums.length; i++) {
+        	if(set.contains(nums[i]))
+        		return nums[i];
+        	else {
+        		set.add(nums[i]);
+        	}
+        }
+        return -1;
+    }
+    
     //Time Complexity: O(n)
     //Auxiliary Space: O(n)
 }
