@@ -7,7 +7,7 @@ public TreeNode constructMaximumBinaryTree(int[] nums) {
     public TreeNode constructMaximumBinaryTree(int[] nums, int leftIndex, int rightIndex, TreeNode head) {
     	if(leftIndex==rightIndex)
     		return null;
-        int max = -100000;
+        int max = -100000; //suboptimal code, should revise better
         int maxindex = -1;
         for(int i = leftIndex; i< rightIndex; i++) {
         	if(nums[i]>max){
