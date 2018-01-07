@@ -17,4 +17,6 @@ class Solution {
         }
         return -1; //useless since the array always has duplicate number
     }
+    //Time Complexity: O(n)
+    //Auxiliary Space: O(n)
 }
