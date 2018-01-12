@@ -21,7 +21,7 @@ class Solution {
     
     public int[][] printLinkedList(MyLinkedList head, int length) {
     	int[][] results = new int[length][2];
-    	//System.out.println("The list ...");
+    	//System.out.println("The list ..."); 
     	MyLinkedList tmp  = head;
     	int iterator = 0;
     	while(tmp!=null) {
@@ -37,7 +37,7 @@ class Solution {
     public int[][] reconstructQueue(int[][] people) {
         //first I need to sort the array
         int order = 0;
-        /*ok I sort the array*/
+        /*ok I sort the array - I do a simple sort and this can be improved*/
         printArray(people);
         for(int i = 0; i < people.length; i++) {
             for(int j = i+1; j < people.length; j++) {
