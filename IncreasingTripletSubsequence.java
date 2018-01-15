@@ -1,4 +1,5 @@
-//This is the solution I come up with, but there is a better solution described here: 
+//This is the solution I come up with, but there is a better solution described here, which is an improvement from
+//the algorithm I proposed: 
 //https://leetcode.com/problems/increasing-triplet-subsequence/discuss/79004
 
 
