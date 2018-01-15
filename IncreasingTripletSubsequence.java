@@ -1,3 +1,9 @@
+//This is the solution I come up with, but there is a better solution described here: 
+//https://leetcode.com/problems/increasing-triplet-subsequence/discuss/79004
+
+
+
+
 public boolean increasingTriplet(int[] nums) {
         int head1 = 0, head2 = 0, middle = 0;
         if(nums.length>0) {
